@@ -108,22 +108,22 @@ i {
   height: 750px;
   object-fit: cover;
   object-position: center;
-  filter: brightness(0.8) blur(5px); /* add blur effect with darker tone */
-  cursor: grab; /* add a grabbing cursor */
-  transform: translateX(0); /* add a transform property */
-  transition: transform 0.5s; /* add a transition effect */
+  filter: brightness(0.8) blur(5px);
+  cursor: grab;
+  transform: translateX(0);
+  transition: transform 0.5s;
 }
 
 .homebg:active {
-  cursor: grabbing; /* change the cursor to grabbing when active */
+  cursor: grabbing;
 }
 
 .homebg:hover {
-  transform: translateX(10px); /* move the image 10px to the right on hover */
+  transform: translateX(10px);
 }
 
 .homebg:hover:hover {
-  transform: translateX(-10px); /* move the image 10px to the left on hover */
+  transform: translateX(-10px);
 }
 
 .home-shadow {

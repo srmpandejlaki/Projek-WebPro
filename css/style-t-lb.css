@@ -241,12 +241,6 @@ i {
   align-items: center;
 }
 
-/* .nav-logo {
-  color: var(--title-color);
-  font-family: var(--second-font);
-  font-weight: var(--font-semi-bold);
-} */
-
 .nav-toggle,
 .nav-close {
   display: flex;
